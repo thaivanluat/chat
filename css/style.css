@@ -1,0 +1,29 @@
+/* RESET CSS */
+* {padding: 0; margin: 0;}
+body {font-family: sans-serif; font-size: 15px; color: #555;}
+h1, h2, h3, h4, h5, h6 {font-weight: 100;}
+input, textarea, a, button {outline: 0;}
+a {text-decoration: none}
+ul li {list-style: none;}
+.clearfix {clear: both;}
+.danger {background-color: #d9534f;}
+.success {background-color: #5cb85c}
+
+
+/* Menu */
+.main-menu {padding: 10px 5%; border-bottom: 1px solid #e5e5e5; width: 90%; position: fixed; background-color: #fff;}
+.main-menu h1 {color: #1a1a1a; display: inline-block;}
+.main-menu a {display: inline-block; float: right; color: #555; font-size: 30px; margin-left: 15px;}
+
+/* Form chat */
+.box-chat {position: fixed; bottom: 0; width: 100%; border-top: 1px solid #e5e5e5;}
+#formSendMsg input[type=text] {width: calc(100% - 20px); padding: 10px; font-size: 15px; color: #555; border: 1;}
+
+/* Show chat */
+.main-chat {height: auto; padding: 67px 10px 38px 10px;}
+.main-chat .msg-user {width: 100%; text-align: right; margin-bottom: 10px;}
+.main-chat .msg-user p {background-color: #1a1a1a; color: #fff; display: inline-block; padding: 10px; font-size: 15px; border:1px; border-radius: 25px;-moz-border-radius: 25px;-webkit-border-radius: 25px;}
+.main-chat .msg {width: 100%; text-align: left; margin-bottom: 10px; border-radius: 25px;}
+.main-chat .msg p {background-color: #cccccc; color: #262626; display: inline-block; padding: 10px; font-size: 15px; border:1px; border-radius: 25px;-moz-border-radius: 25px;-webkit-border-radius: 25px;}
+.main-chat .msg-user .info-msg-user,
+.main-chat .msg .info-msg {font-size: 13px; color: #666; margin-top: 5px;}
